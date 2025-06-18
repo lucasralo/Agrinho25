@@ -1,0 +1,49 @@
+/* Estilo para a seção da cidade */
+.cidade {
+  background-color: #4A90E2; /* Azul que representa a cidade (céu, edifícios) */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+/* Estilo para a seção do campo */
+.campo {
+  background-color: #7ED957; /* Verde que representa o campo (natureza, vegetação) */
+  color: #333;
+  font-family: 'Georgia', serif;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+/* Estilo para a ligação ou transição entre cidade e campo */
+.ligacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+/* Um elemento que simboliza a ligação, como uma seta ou ponte */
+.ponte {
+  width: 100px;
+  height: 10px;
+  background-color: #FFC107; /* Cor que simboliza a conexão (amarelo, ponte) */
+  border-radius: 5px;
+  position: relative;
+}
+/* Uma seta na ponta da ponte para indicar conexão */
+.ponte::after {
+  content: "";
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 10px solid transparent;
+  border-left-color: #FFC107;
+}
+/* Exemplo de interação: ao passar o mouse, mudar a cor da ponte */
+.ponte:hover {
+  background-color: #FFA000;
+}
