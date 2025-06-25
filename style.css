@@ -15,7 +15,7 @@
   font-family: 'Georgia', serif;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(24, 5, 231, 0.2);
   transition: all 0.3s ease;
 }
 /* Estilo para a ligação ou transição entre cidade e campo */
