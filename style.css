@@ -1,7 +1,7 @@
 /* Estilo para a seção da cidade */
 .cidade {
   background-color: #4A90E2; /* Azul que representa a cidade (céu, edifícios) */
-  color: white;
+  color: rgb(4, 240, 248);
   font-family: 'Arial', sans-serif;
   padding: 20px;
   border-radius: 8px;
